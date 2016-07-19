@@ -3,10 +3,12 @@ Verbose alternative to boolean parameters.
 
 ##Example
 Orginal:
+
     rideBike(false);
     drinkTea(true);
 
 With Decide:
+
     rideBike(Decide.DoNot(RideFast.class));
     drinkTea(Decide.With(Cookies.class));
 
@@ -15,4 +17,5 @@ Are you tired of trues and falses passed to every method? Is it problematic to c
 
 ## Disclaimer
 Although it's probably better to just use something like:
+
     enum RideFast{YES, NO}
