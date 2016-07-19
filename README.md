@@ -19,3 +19,8 @@ Are you tired of trues and falses passed to every method? Is it problematic to c
 Although it's probably better to just use something like:
 
     enum RideFast{YES, NO}
+
+or
+
+    drinkTeaWithoutCookies();
+    drinkTeaWithCookies();
